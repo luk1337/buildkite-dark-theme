@@ -99,6 +99,10 @@
     border-color: var(--gray-400);
   }
 
+  .CodeMirror-cursor {
+    border-color: var(--charcoal-800);
+  }
+
   .code--boxed,
   code.code,
   pre.code {
