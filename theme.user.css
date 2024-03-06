@@ -228,6 +228,7 @@
   .ais-SearchBox-input {
     background-color: var(--gray-100);
     border-color: var(--gray-500);
+    color: var(--base-1000);
   }
 
   input.izBVou {
