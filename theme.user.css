@@ -106,6 +106,10 @@
     background-color: var(--gray-400);
   }
 
+  div.bg-green-200.border.border-lime-500.py2.px3.mb5.rounded.relative {
+    color: var(--gray-300);
+  }
+
   .btn-default,
   a.btn-default {
     border-color: var(--gray-300);
