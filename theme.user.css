@@ -68,6 +68,25 @@
     --pink-800: hsl(331, 74%, 30%);
   }
 
+  body
+    > div.flex.flex-column
+    > div.items-center.flex.justify-between.pl4.pr2.py2 {
+    background: radial-gradient(
+        circle,
+        rgba(106, 240, 219, 0.3) 0%,
+        rgba(161, 150, 240, 0.3) 100%
+      ),
+      #333 !important;
+
+    .purple {
+      color: var(--charcoal-800);
+    }
+
+    .purple-600 {
+      color: var(--charcoal-700);
+    }
+  }
+
   .badge--outline,
   .btn-default,
   a.btn-default,
