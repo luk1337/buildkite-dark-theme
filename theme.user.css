@@ -123,7 +123,7 @@
     border-color: var(--charcoal-300);
   }
 
-  .better-branch-panel .build-row:hover {
+  .build-row .build-row-header:hover {
     background-color: var(--gray-100);
     color: var(--base-1000);
   }
