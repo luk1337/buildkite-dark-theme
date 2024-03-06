@@ -106,7 +106,8 @@
     background-color: var(--gray-400);
   }
 
-  div.bg-green-200.border.border-lime-500.py2.px3.mb5.rounded.relative {
+  div.bg-green-200.border.border-lime-500.py2.px3.mb5.rounded.relative,
+  div.bg-parsnip-100.border.border-parsnip-400.p3.rounded.relative {
     color: var(--gray-300);
   }
 
