@@ -288,6 +288,7 @@
     color: white !important;
   }
 
+  .focus-purple:focus,
   .hover-purple:hover {
     color: #a88df2;
   }
