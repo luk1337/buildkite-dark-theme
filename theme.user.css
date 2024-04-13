@@ -197,6 +197,7 @@
   }
 
   /* Because there isn't a non-generated class name for dropdowns, we use the generated one if it exists. */
+  .bhdLno,
   .cOWINi,
   .jbDAzK,
   .cIKpxU,
@@ -205,6 +206,7 @@
     background-color: var(--gray-300);
   }
 
+  .bhdLno > img,
   .cOWINi > img,
   .jbDAzK > img,
   .cIKpxU > img,
