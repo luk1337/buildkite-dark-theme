@@ -188,6 +188,23 @@
     background-color: var(--gray-400);
   }
 
+  body.high-contrast .build-pipeline-state-skipped,
+  body.high-contrast
+    .build-pipeline-state-waiting:not(.build-pipeline-job-waiter),
+  body.high-contrast .build-pipeline-state-assigned,
+  body.high-contrast .build-pipeline-state-scheduled,
+  body.high-contrast .build-pipeline-state-canceled,
+  body.high-contrast
+    .build-pipeline-state-waiting_failed:not(.build-pipeline-job-waiter),
+  body.high-contrast .build-pipeline-state-broken,
+  body.high-contrast .build-pipeline-state-limited,
+  body.high-contrast .build-pipeline-state-unblocked_failed,
+  body.high-contrast .build-pipeline-state-accepted,
+  body.high-contrast .build-pipeline-state-blocked_failed,
+  body.high-contrast .build-pipeline-state-canceling {
+    background-color: var(--slate-100);
+  }
+
   .input.borderless,
   .input.borderless:hover,
   .input.borderless:focus {
