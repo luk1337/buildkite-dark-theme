@@ -220,12 +220,15 @@
 
   /* Because there isn't a non-generated class name for dropdowns, we use the generated one if it exists. */
   .bhdLno,
+  .cIKpxU,
   .cOWINi,
   .jbDAzK,
-  .cIKpxU,
+  .kjxPeK,
+  .kNdfkB,
   .Dropdown-showing > div,
   .popup {
     background-color: var(--gray-300);
+    border-color: var(--gray-600);
   }
 
   .bhdLno > img,
