@@ -205,6 +205,12 @@
     background-color: var(--slate-100);
   }
 
+  body.high-contrast .build-pipeline-state-finished,
+  body.high-contrast .build-pipeline-state-passed {
+    background-color: #002915;
+    color: unset;
+  }
+
   [id^="cluster-card-"] .bg-slate-100,
   #unclustered-card .bg-slate-100 {
     background-color: var(--slate-100);
